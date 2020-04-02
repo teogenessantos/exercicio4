@@ -23,7 +23,7 @@ public class OrderItem {
 	public Double getPrice() {
 		return price;
 	}
-	private void setPrice(Double price) {
+	public void setPrice(Double price) {
 		this.price = price;
 	}
 	public Product getProduct() {
